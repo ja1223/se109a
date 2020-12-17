@@ -6,4 +6,4 @@ t= null
 t= 4
 t= null
 ```
-參考ArthurLiao0816的程式碼寫的
+這個作業是參考ArthurLiao0816的程式碼寫的
