@@ -4,7 +4,7 @@
 
 ## 程式實作
 程式中有寫許多註解
-程式碼(https://github.com/ja1223/se109a/blob/master/final/BucketSort.py)
+[程式碼](https://github.com/ja1223/se109a/blob/master/final/BucketSort.py)
 ## 結果
 ![](https://github.com/ja1223/se109a/blob/master/final/photo/result.jpg)
 ## 複雜度
