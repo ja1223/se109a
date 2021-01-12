@@ -10,7 +10,7 @@
 複雜度為O(n²)
 
 ## 參考資料
-```
+
 <https://blog.csdn.net/ggdhs/article/details/90613650>
 <https://magiclen.org/bucket-sort/>
-```
+
