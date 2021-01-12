@@ -4,12 +4,14 @@
 
 ## 程式實作
 程式中有寫許多註解
-
+程式碼(https://github.com/ja1223/se109a/blob/master/final/BucketSort.py)
 ## 結果
-
+![](https://github.com/ja1223/se109a/blob/master/final/photo/result.jpg)
 ## 複雜度
 複雜度為O(n²)
 
 ## 參考資料
+```
 https://blog.csdn.net/ggdhs/article/details/90613650
 https://magiclen.org/bucket-sort/
+```
