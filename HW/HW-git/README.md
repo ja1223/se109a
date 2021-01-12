@@ -8,7 +8,7 @@ git 是一個版本管理工具<br>
 創建一個資料夾git1<br>
 對git1 做git init 讓git1變成git資料夾<br>
 ![](photo/git資料夾.jpg)<br>
-如果做了add commit等動作都會記錄在.git資料夾中<br>
+如果做了add或commit等動作都會記錄在.git資料夾中<br>
 
 ## 2 git status
 ![](photo/gitStatus.jpg)<br>
@@ -47,7 +47,7 @@ git 是一個版本管理工具<br>
 
 ## 5.版本管理(時光機)功能
 做git checkout ecdb ,回到README只有打xxx的版本<br>
-```ecdb是README只有打xxx那個commit的代號前4碼```
+```ecdb是README只有打xxx那個commit的代號前4碼```<br>
 README內容回到上一版的狀態<br>
 ![](photo/README1.jpg)<br>
 再打一次git log ，會只剩下一個commit<br>
@@ -63,7 +63,7 @@ README內容回到上一版的狀態<br>
 做git checkout master ,回到master的那個版本<br>
 打git branch ,會顯示目前所在的branch<br>
 ![](photo/branch1.jpg)<br>
-```master通常就是最新版```
+```master通常就是最新版```<br>
 做git branch featureA ,新增一個叫featureA的分支<br>
 再做一次git branch ,可以看到多了一個featureA的分支<br>
 ![](photo/branch2.jpg)<br>
