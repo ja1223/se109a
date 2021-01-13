@@ -5,14 +5,14 @@
 [程式碼](findIndex/findIndex.js)
 [傳統測試檔](findIndex/test.js)<br>
 測試結果:<br>
-![](pthoto/findIndex.jpg)
+![](photo/findIndex.jpg)
 ## _.dropRight
 [程式碼](dropRight/dropRight.ts)
 [測試檔](dropRight/test.ts)<br>
 測試結果:<br>
-![](pthoto/dropRight.jpg)
+![](photo/dropRight.jpg)
 ## _.shuffle
 [程式碼](shuffle/shuffle.ts)
 [測試檔](shuffle/test.ts)<br>
 測試結果:<br>
-![](pthoto/shuffle.jpg)
+![](photo/shuffle.jpg)
