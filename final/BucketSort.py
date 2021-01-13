@@ -18,17 +18,11 @@ def bucktetSort(numList, bucketNum):
         buckets.append([])
     for i in range(len(numList)): # 將數值一一分配到桶子內
         bucket = (numList[i] - minNum) // bucketSize # 算要放進哪個桶子
-        buckets[bucket].append(numList[i])              
-    print("分配進桶子後的陣列: " + str(buckets)) # 印出分配進桶子後的陣列
-    for i in range(bucketNum): # 對每個桶子進行桶内排序，直接使用python中的sort函式排序
-        buckets[i].sort()
-    print("桶內排序後的陣列: " + str(buckets)) # 印出進行桶內排序後的陣列
+        buckets[bucket].append(numList[i])  
+        for i in range(bucketNum): # 對每個桶子進行桶内排序，直接使用python中的sort函式排序
+            buckets[i].sort()
     result = [] # 建立用來放結果的陣列
     for i in range(len(buckets)):   # 將桶子中的數值按照順序放進result陣列
         for j in range(len(buckets[i])):
             result.append(buckets[i][j])
     return result # 回傳result陣列
-
-numlist = [11, 34, 23, 56, 8, 20, 66, 45, 54, 87, 78] # 要進行排序的陣列
-print("原陣列: " + str(numlist))
-print("排序後陣列: " + str(bucktetSort(numlist, 5)))  # 設定使用5個桶來分類

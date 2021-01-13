@@ -29,15 +29,11 @@ def bucktetSort(numList, bucketNum):
             result.append(buckets[i][j])
     return result # 回傳result陣列
 
-#以下為測試
+#以下為傳統測試
 numlist = [11, 34, 23, 56, 8, 20, 66, 45, 54, 87, 78]
 print("原陣列: " + str(numlist))
 print("排序後陣列: " + str(bucktetSort(numlist, 5)))
 print("\n")
-numlist = [] #因為list的長度小於2所以直接return
-print("原陣列: " + str(numlist))
-print("排序後陣列: " + str(bucktetSort(numlist, 3)))
-print("\n")
-numlist = [11] #因為list的長度小於2所以直接return
+numlist = [11] 
 print("原陣列: " + str(numlist))
 print("排序後陣列: " + str(bucktetSort(numlist, 4)))
