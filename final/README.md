@@ -27,6 +27,11 @@
 ## 結果
 ![](https://github.com/ja1223/se109a/blob/master/final/photo/result.jpg)
 
+## 測試
+測試[程式碼](https://github.com/ja1223/se109a/blob/master/final/test/test.py):<br>
+![](https://github.com/ja1223/se109a/blob/master/final/photo/test.jpg)
+測試結果:<br>
+![](https://github.com/ja1223/se109a/blob/master/final/photo/testresult.jpg)
 ## 複雜度
 複雜度為O(n²)
 
